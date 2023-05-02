@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./imagens/android.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Droid</title>
 
@@ -26,7 +27,7 @@
       
       }
 
-      .cabecalo h1 {
+      .cabecalo__titulo {
         color: white;
       }
 
@@ -64,7 +65,7 @@
       }
       
       .grande {
-        width: 390px;
+        width: 100%;
         padding: 10px;
         
       }
@@ -92,7 +93,10 @@
         background-color: white;
         max-width: 900px;
         
-        
+      }
+
+      main h2 {
+        margin-top: 10px;
       }
 
       main p {
@@ -125,6 +129,10 @@
         text-align: center;
       }
 
+      footer {
+        
+      }
+
       footer p {
         text-align: center;
       }
@@ -149,16 +157,6 @@
           
        
       }
-
-      @media screen and (min-width:390px) {
-        .cabecalo h1 {
-          font-size: 2em;
-        }
-        
-      }
-
-
-
       
     </style>
 
@@ -167,18 +165,18 @@
     
     <main class="principal">
       <header class="cabecalo">
-        <h1>Tecnologia</h1>
+        <h1 class="cabecalo__titulo">Tecnologia</h1>
         <p class="paragrafo">
           Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único
           lugar
         </p>
       </header>
       <nav class="menu">
-        <a href="" class="link">Home</a>
-        <a href="" class="link">Notícias</a>
-        <a href="" class="link">Fale Conosco</a>
+        <a href="#" class="link">Home</a>
+        <a href="#" class="link">Notícias</a>
+        <a href="#" class="link">Fale Conosco</a>
       </nav>
-      <h2>História do Mascote do Android</h2>
+      <h2>O Mascote do Android</h2>
       <p>
         Provavelmente você sabe que o sistema operacional Android, mantido pelo
         Google é um dos mais utilizados para dispositivos móveis em todo o mundo.
@@ -210,7 +208,10 @@
         do Google, ficou com a missão de representar o pequeno robô de uma maneira
         mais agradável.
       </p>
-      <img class="grande" src="./imagens/bugdroid.png" alt="" />
+      <picture>
+        <source media="(max-width:490px )" srcset="imagens/bac-pq.png">
+        <img class="grande" src="./imagens/BAC_Logo.png" alt="" />
+      </picture>
       <p>
         A ideia principal da Irina era representar tudo graficamente com poucos
         traços e de forma mais chapada. O desenho também deveria gerar
@@ -275,9 +276,9 @@
       </div>
       </p>
     </main>
-
     <footer>
       <p>Site criado por Luan Lisboa Medeiros.</p>
     </footer>
+
   </body>
 </html>
