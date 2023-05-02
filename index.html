@@ -32,6 +32,7 @@
 
       .paragrafo {
         text-align: center;
+        color: white;
       }
 
       .menu {
@@ -63,7 +64,7 @@
       }
       
       .grande {
-        width: 400px;
+        width: 390px;
         padding: 10px;
         
       }
@@ -97,10 +98,11 @@
       main p {
         text-align: justify;
         padding:10px;
+        
       }
 
       .conteudo__extra {
-        background-color: cadetblue;
+        background-color: rgb(10, 98, 170);
         color: white;
       }
 
@@ -113,12 +115,17 @@
       .conteudo__extra ul {
         columns: 2;
         margin: 8px 15px;
-        border: 1px solid black;
-        box-shadow: 0 0 15px -1px black;
+        padding: 10px 0;
+        border: 1px solid rgb(248, 247, 247);
+        
       }
 
       .conteudo__extra li {
         list-style: none;
+        text-align: center;
+      }
+
+      footer p {
         text-align: center;
       }
 
@@ -143,6 +150,13 @@
        
       }
 
+      @media screen and (min-width:390px) {
+        .cabecalo h1 {
+          font-size: 2em;
+        }
+        
+      }
+
 
 
       
@@ -153,7 +167,7 @@
     
     <main class="principal">
       <header class="cabecalo">
-        <h1>Curiosidades de Tecnologia</h1>
+        <h1>Tecnologia</h1>
         <p class="paragrafo">
           Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único
           lugar
@@ -263,7 +277,7 @@
     </main>
 
     <footer>
-      <p>Site criado por Gustavo Guanabara para o CursoemVideo.</p>
+      <p>Site criado por Luan Lisboa Medeiros.</p>
     </footer>
   </body>
 </html>
