@@ -1,0 +1,35 @@
+body {
+    background-color: #b9eeb9;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+
+}
+.topo {
+    background-color: #0cad0c;
+    text-align: center;
+    padding: 50px 0 10px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 10px;
+    color: white;
+}
+
+.menu {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
